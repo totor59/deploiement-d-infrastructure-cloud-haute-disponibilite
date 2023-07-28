@@ -24,5 +24,8 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Planfile
+planfile
+
 # Devcontainer
 .devcontainer.json
