@@ -1,9 +1,10 @@
 # Local .terraform directories
 **/.terraform/*
+.terraform.lock.hcl
 
 # .tfstate files
-#*.tfstate
-#*.tfstate.*
+*.tfstate
+*.tfstate.*
 
 # Crash log files
 crash.log
@@ -22,3 +23,6 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# Devcontainer
+.devcontainer.json
