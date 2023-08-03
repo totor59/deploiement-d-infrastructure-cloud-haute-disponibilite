@@ -73,7 +73,7 @@ resource "azurerm_lb_backend_address_pool" "web_backend_pool" {
 }
 
 
-resource "azurerm_network_interface_backend_address_pool_association" "example" {
+resource "azurerm_network_interface_backend_address_pool_association" "public" {
   count = 3  # Nombre de VMs serveurs web
   
   network_interface_id    = azurerm_network_interface.web_server[count.index].id
